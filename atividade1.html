@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição do pelego</title>
+</head>
+<body>
+    <h1>Inscrição do pelego</h1>
+
+    <form>
+    
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+
+         <label for="email">Email: </label>
+       <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+
+       <label for="password">Senha: </label>
+       <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+
+       <label for="data-nascimento">Data de nascimento: </label>
+       <input type="date" name="data-nascimento" id="data-nascimento">
+
+       <label for="cidade">Cidade: </label>
+       <select name="cidade" id="cidade">
+
+        <option>Londrina</option>
+        <option>Maringá</option>
+        <option>Aoucarana</option>
+
+        <label for="posição">Posição: </label>
+        <input type="posição" name="posição" id="posição" placeholder="Digite sua posição" required>
+
+        <label for="já pagou?">Já pagou?: </label>
+        <input type="já pagou?" name="já pagou?" id="já pagou?" placeholder="digite se ja pagou (quanto)" required>
+
+        <label for="vai participar do churrasco">vai participar do churrasco?: </label>
+        <input type="vai participar do churrasco?" name="vai participar do churrasco?" id="vai participar do churrasco?" placeholder="Digite se vai participar do churrasco?" required>
+
+        <label for="tem chuteira?">Tem chuteira?: </label>
+        <input type="tem chuteira?" name="tem chuteira?" id="tem chuteira?" placeholder="Digite se tem chuteira" required>
+
+
+    </select>
+
+    <label for="curso">Já fez o curso?</label>
+    <input type="radio" mame="curso">
+    Sim
+    <input type="radio" name="curso">
+    Não
+
+    </label>
+        <input type="checkbox" name="termos" id="termos">
+        Aceito os termos
+    </label>
+
+    <label>Observação: </label>
+    <textarea rows="4" placeholder="Deixe aqui sua observação"></textarea>
+
+    <button type="submit">Cadastrar</button>
+       
+    </form>
+</body>
+</html>
